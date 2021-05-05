@@ -15,12 +15,11 @@ body {
 }
 
 nav {
-    display: flex;
-    justify-content: right;
     margin: 2rem;
 }
 
 header > nav > a {
+    float: right;
     border: 2px solid white;
     padding: 0.8rem;
     border-radius: 30px;
@@ -65,4 +64,24 @@ main {
     width: 100%;
     max-width: 200px;
     padding: .5em;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.flex > .icon {
+    position: absolute;
+    right: 0;
+}
+
+.last-update {
+    position: absolute;
+    right: 0;
 }
