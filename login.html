@@ -10,6 +10,32 @@
     <title>Sign In</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="index.html">Sign Out</a>
+        </nav>
+    </header>
+    <div class="form-main">
+        <form action="" method="POST" class="form" id="form-1">
+          <h3 class="heading">Sign In</h3>
+          <div class="spacer"></div>
+      
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" type="text" placeholder="Enter your email" class="form-control" required>
+            <span class="form-message"></span>
+          </div>
+      
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter your password" class="form-control" required>
+            <span class="form-message"></span>
+          </div>
+      
+          <button class="form-submit">Sign In</button>
+        </form>
+      </div>
+
+      <script src="./validator.js"></script>
 </body>
 </html>
