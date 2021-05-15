@@ -10,13 +10,13 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Sign Out</a>
+            <a class="sign-out" href="index.html">Sign Out</a>
         </nav>
     </header>
-    <main>
+    <main id="main">
         <div class="container">
             <div class="search">
-                <select name="cities" id="cities" onchange="getCityValue()">
+                <select name="cities" id="cities">
                     <option value="">-- Select a city --</option>
                     <optgroup label="America">
                         <option value="new york">New York</option>
@@ -98,16 +98,17 @@
                 <div class="pressure"></div>
                 <div class="humidity"></div>
                 <div class="sunrise"></div>
-                <div class="sunset"></div>
                 <div class="flex">
-                    <div class="uv-index"></div>
+                    <div class="sunset"></div>
                     <div class="last-update"></div>
                 </div>
-                <button class="form-submit save">Save</button>
+                <button class="form-submit" id="save-button">Save</button>
+                <p class="message"></p>
             </div>
         </div>
-    </main>
 
-    <script src="./script.js"></script>
+        <div class="flex-box"></div>
+    </main>
 </body>
+<script src="./script.js"></script>
 </html>

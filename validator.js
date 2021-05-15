@@ -14,7 +14,7 @@ if(form) {
     form.addEventListener("submit", (e) => {
         e.preventDefault();
 
-        //Get the 
+        //Get the user input value
         const userEmail = document.getElementById('email');
         const userPassword = document.getElementById('password');
         for(var i = 0; i < users.length; i++) {

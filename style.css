@@ -37,14 +37,13 @@ header > nav > a:hover {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
 
 .container {
-    background: rgb(60, 60, 60);
     background: rgba(60, 60, 60, 0.8);
     padding: 2em;
     border-radius: 30px;
@@ -176,4 +175,15 @@ main {
     margin-top: 30px;
 }
 
+.flex-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.message {
+    color: #f33a58;
+    margin-top: 10px;
+    text-align: center;
+}
 
