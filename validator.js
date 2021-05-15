@@ -20,7 +20,7 @@ if(form) {
         for(var i = 0; i < users.length; i++) {
             if(userEmail.value === users[i].email && userPassword.value === users[i].password) {
                 form.reset();
-                window.location.href = "user-page.html";
+                window.location.href = "userpage.html";
                 return;
             }
         }
